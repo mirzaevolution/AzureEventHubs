@@ -23,6 +23,7 @@ namespace Demo001.Receiver2
                 //multi partition
                 string eventHubPath = "demo001multipartition";
 
+                //it'll use different consumer group so that it'll receive same message as the receiver #1 does!
                 string consumerGroup = "Secondary";
 
                 //single partition
